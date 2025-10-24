@@ -1,3 +1,4 @@
+// Creado por Wulfgard
 document.addEventListener("DOMContentLoaded", () => {
   // Distancia
   const metros = document.getElementById("metros");
