@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1f2d3d;
+  color: #f0f0f0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e0c080;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #c0a060;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#h3top {
+  margin-top: 0.1rem;  
+}
+
+/* Botón de reset */
+.reset-btn {
+  background-color: #2d5ca9;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.reset-btn:hover {
+  background-color: #0e299b;
+}
+
+/* Etiquetas e inputs */
+label {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #2c3e50;
+  color: #f0f0f0;
+}
+
+/* Sección principal */
+.section {
+  max-width: 600px;
+  margin: auto;
+  background-color: #263544;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 1rem;
+  }
+}

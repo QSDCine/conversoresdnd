@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Conversores D&amp;D</title>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="theme-color" content="#1f2d3d" />
+    </head>
+    <body>
+        <main>
+            <section id="conversores" class="section active">
+                <h3 id="h3top">Monedas de D&amp;D <button class="reset-btn" data-reset="monedas">Reset</button></h3>
+                <label for="pc">PC (Cobre):</label>
+                <input type="number" id="pc" min="0" step="any" />
+                <label for="pp">PP (Plata):</label>
+                <input type="number" id="pp" min="0" step="any" />
+                <label for="pe">PE (Electro):</label>
+                <input type="number" id="pe" min="0" step="any" />
+                <label for="po">PO (Oro):</label>
+                <input type="number" id="po" min="0" step="any" />
+                <label for="ppt">PPT (Platino):</label>
+                <input type="number" id="ppt" min="0" step="any" />
+
+                <h3>Distancia <button class="reset-btn" data-reset="distancia">Reset</button></h3>
+                <label for="metros">Metros:</label>
+                <input type="number" id="metros" min="0" step="any" />
+                <label for="pies">Pies (ft):</label>
+                <input type="number" id="pies" min="0" step="any" />
+
+                <h3>Peso <button class="reset-btn" data-reset="peso">Reset</button></h3>
+                <label for="kilos">Kilos:</label>
+                <input type="number" id="kilos" min="0" step="any" />
+                <label for="libras">Libras (lbs):</label>
+                <input type="number" id="libras" min="0" step="any" />
+            </section>
+        </main>
+
+        <script src="conversores.js"></script>
+    </body>
+</html>
