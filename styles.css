@@ -1,3 +1,4 @@
+/* Creado por Wulfgard */
 /* Reset básico */
 * {
   margin: 0;
@@ -13,7 +14,7 @@ body {
   line-height: 1.6;
 }
 
-
+/* Encabezado */
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -35,7 +36,7 @@ h3 {
   margin-top: 0.1rem;  
 }
 
-
+/* Botón de reset */
 .reset-btn {
   background-color: #2d5ca9;
   color: white;
@@ -50,7 +51,7 @@ h3 {
   background-color: #0e299b;
 }
 
-
+/* Etiquetas e inputs */
 label {
   display: block;
   margin-top: 0.5rem;
@@ -67,7 +68,7 @@ input[type="number"] {
   color: #f0f0f0;
 }
 
-
+/* Sección principal */
 .section {
   max-width: 600px;
   margin: auto;
@@ -86,5 +87,4 @@ input[type="number"] {
   .section {
     padding: 1rem;
   }
-
 }
